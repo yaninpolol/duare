@@ -46,7 +46,7 @@ chrome_options.add_argument("--disable-blink-features=AutomationControlled") # M
 
 driver = webdriver.Chrome(seleniumwire_options=options, options=chrome_options)
 
-driver.get("https://sepolia-faucet.pk910.de/#/mine/04f47d26-b2f8-4919-8227-d4d0767bb7a2")
+driver.get("https://sepolia-faucet.pk910.de/#/mine/a9e342c5-e299-479e-b6a4-541b0bc7a208")
 
 # Anda mungkin ingin memeriksa permintaan jaringan di sini untuk memastikan optimizationguide-pa.googleapis.com tidak muncul
 # for request in driver.requests:
